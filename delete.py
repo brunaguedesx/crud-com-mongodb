@@ -14,6 +14,5 @@ try:
     print(f"Documentos deletados: {resultado.deleted_count}")
 
     client.close()
-
 except Exception as e:
     raise Exception(f"Ocorreu um erro {e}")
